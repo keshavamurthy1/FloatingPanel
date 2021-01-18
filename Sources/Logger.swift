@@ -3,9 +3,7 @@
 import Foundation
 import os.log
 
-var log = {
-    return Logger()
-}()
+let log = Logger()
 
 struct Logger {
     private let osLog: OSLog
